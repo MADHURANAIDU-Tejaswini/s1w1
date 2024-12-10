@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attributes Example</title>
+    <style>
+      /* CSS to apply styles based on class */
+      .highlight {
+        background-color: yellow;
+        font-weight: bold;
+      }
+
+      /* CSS to apply styles based on id */
+      #unique-heading {
+        color: green;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="unique-heading">Welcome to the Attributes With Example</h1>
+
+    <p>This paragraph will <span class="highlight">stand out</span> due to its class attribute.</p>
+
+    <p id="first-paragraph" style="font-size: 18px; color: blue;">This paragraph has inline styles to customize its appearance.</p>
+
+    <div class="highlight" style="padding: 10px;">
+      <p>This div is using both a class and an inline style attribute.</p>
+    </div>
+
+    <button id="myButton" onclick="alert('You clicked the button!')" style="background-color: orange; color: white;">
+      Click Me
+    </button>
+  </body>
+</html>
